@@ -7,8 +7,8 @@ from data_loader import load_json_dataset
 from huggingface_hub import login
 
 def main():
-    train_file_path = 'path_to_train_file.json'
-    val_file_path = 'path_to_val_file.json'
+    train_file_path = 'data/circuit_breakers_train.json'
+    val_file_path = 'data/circuit_breakers_val.json'
     
     train_dataset, val_dataset = load_json_dataset(train_file_path, val_file_path)
     login(token="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")
