@@ -5,5 +5,6 @@ datasets
 peft
 matplotlib
 seaborn
+nltk
 adversarial-robustness-toolbox
 art
