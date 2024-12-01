@@ -6,5 +6,4 @@ scikit-learn
 peft
 matplotlib
 seaborn
-art
 adversarial-robustness-toolbox
