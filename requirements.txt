@@ -7,3 +7,4 @@ peft
 matplotlib
 seaborn
 adversarial-robustness-toolbox
+art
