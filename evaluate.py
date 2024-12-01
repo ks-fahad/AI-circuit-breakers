@@ -1,5 +1,5 @@
 from art.attacks.evasion import FastGradientMethod, ProjectedGradientDescent, CarliniL2Method
-from art.classifiers import PyTorchClassifier
+from art.estimators.classification import PyTorchClassifier
 import torch
 
 def evaluate_robustness_multiple_attacks(model, tokenizer, test_texts, attacks=[FastGradientMethod, ProjectedGradientDescent, CarliniL2Method]):
