@@ -1,0 +1,10 @@
+transformers
+tf-keras
+torch
+datasets
+scikit-learn
+peft
+matplotlib
+seaborn
+art
+adversarial-robustness-toolbox
